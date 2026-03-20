@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction using Linear Regression
+# House Price Prediction using Linear Regression
 
 ##  Overview
 
@@ -103,7 +103,7 @@ To build a regression model that can estimate house prices based on given input 
   * Mean Squared Error (MSE)
   * R² Score
 
-👉 **R² Score: 0.67**
+ **R² Score: 0.67**
 
 * Indicates moderate performance
 * Model captures general trend but has some variance
