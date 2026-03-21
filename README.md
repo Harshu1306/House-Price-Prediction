@@ -129,7 +129,7 @@ To build a regression model that can estimate house prices based on given input 
 
 ---
 
-## 📊 Results
+##  Results
 
 * Model is able to capture relationships between features and price
 * Performance is moderate due to linear assumptions
@@ -158,6 +158,15 @@ To build a regression model that can estimate house prices based on given input 
 * Using GitHub to manage and present ML projects
 
 ---
+## Model Selection Note
+
+Initially, Linear Regression was used to predict house prices. However, Linear Regression assumes a linear relationship between features and the target variable. In this dataset, house prices depend on multiple factors such as area, number of bedrooms, location preferences, furnishing status, and amenities, which do not follow a strictly linear relationship.
+
+As a result, the Linear Regression model sometimes produced unrealistic predictions such as negative prices and underestimation for high-priced houses.
+
+This indicates that Linear Regression is not the most suitable model for this dataset. Tree-based models such as Decision Tree Regressor or Random Forest Regressor are more appropriate because they can capture non-linear relationships and interactions between features.
+
+Therefore, Linear Regression was used as a baseline model, and better performance is expected from tree-based models.
 
 ##  Future Improvements
 
@@ -170,6 +179,7 @@ To build a regression model that can estimate house prices based on given input 
 * Deploy as a web app (Streamlit)
 
 ---
+
 
 ##  Conclusion
 
